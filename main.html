@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+        <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/main.css">
+      </head>
+      
+      <body>
+      
+        <form method="post" action="/">
+      
+          <h1>JUIT</h1>
+      
+          <fieldset>
+            <label for="name">Instagram Id:</label>
+            <input class="form-control" type="text" name="igHandle" placeholder="His/Her Instagram Handle" required autocomplete="false">
+      
+            
+      
+         
+            <label>Academic Year: </label>
+            <select class="form-select mt-3" name="yearOfStudy" required>
+            <option  value="1st Year ,">1st Year</option>
+            <option  value="2nd Year ,">2nd Year</option>
+            <option  value="3rd Year ,">3rd Year</option>
+            <option  value="4th Year ,">4th Year</option>
+        </select>
+  
+            <label for="event_select_for">Branch:</label>
+            <select class="form-select mt-3" name="branch" required>
+                <option value="CSE">CSE</option>
+                <option value="IT">IT</option>
+                <option value="ECE">ECE</option>
+                <option value="CIVIL">Civil</option>
+                <option value="BIO/BT">BI/BT</option>
+            </select>
+       
+          <label for="universityname">Message:</label>
+          <textarea class="form-control" type="text" name="confessionsText" maxlength="400" required ></textarea>
+          <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+        </fieldset>
+        </form>
+      
+      </body>
+      
+</html>
